@@ -1,0 +1,39 @@
+.features{
+    padding: 100px 0;
+    background:var( --gradient-text);
+
+    h1{
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 30px;
+        cursor: pointer;
+
+
+    }
+
+    .feature-section{
+        padding: 0 20px;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+
+       h2{
+           font-size:16px;
+           color:var(--color-text);
+           font-weight: bold;
+           
+
+       }
+
+       i{
+           color: var(--color-text);
+           font-size: 20px;
+           cursor: pointer;
+           transition:0.5s;
+
+           &:hover{
+               color:rgb(98, 255, 0);
+           }
+       }
+    }
+}
