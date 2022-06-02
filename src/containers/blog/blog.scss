@@ -1,0 +1,28 @@
+.blog{
+    margin: 80px 0;
+
+    .blog-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+     
+
+        .blog-img{
+           
+          
+            img{
+                width: 300px;
+                height: 250px;
+                padding-bottom: 20px;
+            }
+
+            p{
+               
+                font-size: 14px;
+                color: #fff;
+                opacity: 0.5;
+            }
+        }
+    }
+}

@@ -22,10 +22,13 @@ const Posibility = () => {
                         در ستون و سطرآنچنان که لازم است
                         </p>
                         <h4>لورم ایپسوم متن ساختگی با</h4>
+
                     </div>
                 </div>
-                <div className='col-md-12 col-lg-6'>
-                <img src={posibility} alt="" style={{width:"200px"}} />
+                <div className='col-md-12 col-lg-6 '>
+                    <div className='posibility-img'>
+                        <img src={posibility} alt=""  />
+                    </div>
 
                 </div>
             </div>
